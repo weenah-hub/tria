@@ -1,0 +1,323 @@
+*{
+    margin :  0;
+    padding : 0;
+
+}
+.top-container{
+
+    
+    text-align: center;
+    background-image: url(IMAGS/I\ Phone.jpg);
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+
+
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding:8px 12px ;
+    position:relative;
+   
+}
+.nav-links ul li a {
+   
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+}
+.btn{
+    color: white;
+    display: inline-block;
+    padding: 12px 34px;
+    border: 1px solid white;
+    background: transparent;
+    cursor: pointer;
+    text-decoration: wavy;
+    position:relative;
+
+    
+
+}
+.btn:hover{
+    border: 1px solid rgb(1, 10, 56);
+    background-color: rgb(8, 3, 60);
+}
+.services{
+    
+    text-align: center;
+    background-image:url(IMAGS/ANT.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+.app-container{
+    text-align: center;
+    color:rgba(255, 255, 255, 0.939);
+    width: 100%;
+    background-image: url(IMAGS/hong_kong_astronomy-wallpaper-2880x1620.jpg);
+    background-position: 50% 100vh;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+.SCHOOL{
+    text-align: left;
+    color: black;
+    width: 100%;
+    background-image:url(IMAGS/lamborghini_44-wallpaper-2560x1440.jpg) ;
+    min-height: 100vh;
+}
+
+
+.vision-container{
+    text-align: left;
+    color: brown;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    min-height: 100vh;
+    background-image: url(IMAGS/lamborghini_super_trofeo_stradale-wallpaper-1920x1080.jpg);
+    
+}
+.cat{
+     
+ color: black;
+    width:100% ;
+    min-height: 100vh;
+    background-image: url(IMAGS/new_years_eve_2014-wallpaper-3840x2160.jpg)
+   
+    
+}
+
+.cat h1{
+    text-align: center;
+}
+.cat h2{
+    text-align: center;
+}
+.cat ul li{
+    
+    background-color: black;
+}
+.cat p{
+    text-align: center;
+}
+.fish{
+    text-align: left;
+    color: whitesmoke;
+    width: 100%;
+    background-image: url(IMAGS/cabls.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+.fish h1{
+    text-align: center;
+}
+.winner ul li{
+    
+  text-align: right; 
+}
+
+
+.winner{
+    text-align: center;
+    color: aqua;
+    
+    background-image: url(IMAGS/I\ Phone.jpg);
+    color: white;
+    width: 100%;
+    min-height:50VH;
+}
+
+.hair h2{
+    color: rgb(4, 129, 41);
+    text-align: center;
+}
+.ARIEL{
+    text-align: center;
+    color:beige;
+    background-image: url(IMAGS/fire_vs_ice-wallpaper-1920x1080.jpg);
+    min-height: 100vh;
+    width: 100%;
+}
+.NEW{
+    text-align: center;
+    color: aqua;
+    min-height: 10vh;
+    width: 100%;
+    background-color: black;
+}
+.ELLA{
+    text-align: center;
+    color: black;
+    background-color: gold;
+    min-height: 50vh;
+    width: 100%;
+   
+}
+  
+  
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: grey;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+
+
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col{
+    flex-basis: 31%;
+    background: red;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+ h3{
+     text-align: center;
+     font-weight: 600;
+     margin: 10px 0;
+ }
+
+ .course-col :hover{
+     box-shadow:  0 0 20px 0px rgba(4,9,30,0.7);
+ }
+ @media(max-width: 700px){
+    .row {
+        flex-direction: column;
+    }
+ }
+  
+
+
+ .gadgets {
+     width: 100%;
+     margin: auto;
+     text-align: center;
+     padding-top: 50px;
+     background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/dope.jpg);
+ }
+ .gadgets h1{
+     color: brown;
+ }
+
+ .gadgets-col {
+     flex-basis: 32%;
+     border-radius: 10px;
+     margin-bottom: 30px;
+     position: relative;
+     overflow: hidden;
+
+
+ }
+ .gadgets-col h3{
+     color: red;
+ }
+
+ 
+ .layer {
+     background: transparent;
+     opacity: 0;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     transition: 0.5s;
+ }
+
+ .layer :hover{
+    background: rgb(239, 255, 182);
+ }
+
+ .layer h3{
+     background:rgb(7, 0, 46);
+     
+     opacity: 0;
+     
+
+ }
+
+ .layer :hover h3{
+ bottom: 49%;
+ opacity: 1;
+
+ }
+  
+ .clients{
+     width: 80%;
+     margin: auto;
+     padding: 100px;
+     text-align: center;
+     background-image:url(images/airforce.jpg);
+ }
+ 
+ .client-col {
+     flex-basis: 31px;
+     border-radius: 10px;
+     margin-bottom: 5%;
+     text-align: left;
+     background-color: transparent;
+    
+     transform: 1s;
+     
+ }
+ 
+ 
+ .client-col p{
+     padding: 0%;
+     background-color:rgb(26, 3, 3);
+     
+ }
+ .client-col h3{
+     margin-top: 16px;
+     margin-bottom: 15px;
+     text-align: left;
+ }
+ .MERMAID tr td{
+    background-color: blue;
+ }
+ .click {
+    color: #18c1e7;
+    display: inline-block;
+    padding: 12px 34px;
+    border: 1px solid ;
+    background: transparent;
+    cursor: pointer;
+    text-decoration: wavy;
+    position:relative;
+    
+}
+.click:hover{
+    
+    border:1px solid rgb(2, 1, 12);
+    background-color:rgb(2, 1, 12) ;
+    
+    
+}
